@@ -23,12 +23,13 @@ I spent nearly three years keeping enterprise backup clusters running for 100+ c
 
 - Benchmarked vector databases (**LanceDB, Milvus, Qdrant**) for multimodal approximate nearest-neighbor search on the **Polaris supercomputer**
 - Designed large-scale experiments with LanceDB, PyTorch and multimodal embeddings to analyze **HNSW and IVF** indexing performance for AI/HPC workloads
+- 📄 [Internship report](https://github.com/vipulpatil04/Summer-Internship-Report-Vipul-Patil)
 
 ## 🚀 Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| **RAG Index Builder** | Distributed MapReduce pipeline: PDF extraction → sentence-aware sliding-window chunking → 1024-d embeddings → sharded Lucene HNSW vector indexes | Scala 3, Hadoop MapReduce, Lucene, PDFBox, Ollama |
+| [**RAG Index Builder**](https://github.com/vipulpatil04/CS441-RAGIndex) | Distributed MapReduce pipeline: PDF extraction → sentence-aware sliding-window chunking → 1024-d embeddings → sharded Lucene HNSW vector indexes | Scala 3, Hadoop MapReduce, Lucene, PDFBox, Ollama |
 | [**Incremental RAG**](https://github.com/vipulpatil04/CS441-HW2-Incremental-RAG) | Follow-up to the RAG Index Builder: updates the index incrementally instead of rebuilding from scratch | Scala |
 | [**BigVectorBench**](https://github.com/vipulpatil04/BigVectorBench) | Vector database benchmarking | Python |
 | **Edge Vehicle Counting** _(repo coming soon)_ | GPU-accelerated YOLOv8 pipeline, containerized with Docker Compose on NVIDIA Jetson Thor | Docker, YOLOv8, CUDA 13, JetPack 7 |
